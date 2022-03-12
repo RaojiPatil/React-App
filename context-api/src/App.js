@@ -1,11 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
-import AuthContext from "./context/AuthContext";
+
+import Login from './context/login';
 
 function App() {
   return (
     <div className="App">
-    <AuthContext/>
+  
+   <Login/>
     </div>
   );
 }
