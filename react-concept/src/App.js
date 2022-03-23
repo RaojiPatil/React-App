@@ -1,13 +1,10 @@
 import logo from './logo.svg';
 import './App.css';
-import { Navbar } from './component/Navbar';
-import { MainRoutes } from './routes/mainroutes';
-
+import { Navbar } from './components/Navbar';
 function App() {
   return (
     <div className="App">
-  
- <MainRoutes />
+    <Navbar />
     </div>
   );
 }
